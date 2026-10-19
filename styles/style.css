@@ -1,4 +1,4 @@
-header{
+header {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
@@ -9,38 +9,42 @@ header{
     font-family: 'Raleway';
     font-size: 18px;
 }
-.logo_black{
+
+.logo_black {
     display: block;
     width: 135px;
     height: 105px;
 }
-.logo_black img{
- 
-}
-.addres{
+
+.address {
     display: flex;
     flex-direction: column;
     max-width: 240px;
     line-height: 24.3px;
     justify-self: end;
+    font-style:normal;
 }
-.addres a{
+
+.address a {
     align-items: flex-start;
 }
-.header__menu{
 
+.header__menu {
     font-size: 18px;
     display: flex;
     gap: 31.48px;
     list-style: circle;
 }
-.header__menu li:first-child{
+
+.header__menu li:first-child {
     list-style: none;
 }
-.header__menu li:last-child{
+
+.header__menu li:last-child {
     margin-left: 3px;
 }
-.cover{
+
+.cover {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/cover.jpg');
     min-height: 757px;
     background-position: center;
@@ -50,7 +54,8 @@ header{
     display: grid;
     grid-template-rows: 1fr auto; 
 }
-.banner{
+
+.banner {
     margin: 0;
     padding: 0;
     font-family: 'Raleway';
@@ -58,40 +63,38 @@ header{
     font-weight: 700;
     font-size: 100px;
     line-height: 115%;
-
-    
     letter-spacing: 0.3em;
     text-transform: uppercase;
-
     color: #FFFFFF;
-    
 }
-.banner span:nth-child(2){
+
+.banner span:nth-child(2) {
     text-align: center;
     display: block;
     padding-top: 20px;
-    
 }
-.banner span:first-child{
+
+.banner span:first-child {
     display: block;
-    margin-left: 4.6% ;
+    margin-left: 4.6%;
     padding-top: 165px;
 }
-.banner span:last-child{
+
+.banner span:last-child {
     display: block;
     margin-right: 1%;
     padding-top: 20px;
     text-align: right;
 }
-.description{
+
+.description {
     display: grid;
     grid-template-columns: 1fr auto;
     align-items: center;
     margin-bottom: 50px;
-    
 }
 
-.description p{
+.description p {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
@@ -102,7 +105,8 @@ header{
     margin-left: 50px;
     word-spacing: 18px;
 }
-.bet-button{
+
+.bet-button {
     background: transparent;
     border: 1px solid #FFFFFF;
     color: #FFFFFF;
@@ -113,19 +117,21 @@ header{
     text-transform: uppercase;
     padding: 11px 33px;
     cursor: pointer;
-   
     margin-right: 50px;
     white-space: nowrap;
 }
-.lots{
+
+.lots {
     margin-top: 180px;
 }
-.lots__title{
+
+.lots__title {
     font-size: 40px;
     margin-left: 64px;
     margin-bottom: 27px;
 }
-.lots__cards{
+
+.lots__cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-left: 24px;
@@ -133,27 +139,31 @@ header{
     gap: 25px;
     list-style: none;
 }
-.lots__card{
+
+.lots__card {
     width: 334px;
     min-height: 596px;
     align-items: center;    
 }
-.lots__card a{
+
+.lots__card a {
     height: 100%;
     text-decoration: none;
 }
-.lots__card article{
+
+.lots__card article {
     height: 100%;
     display: flex;
     flex-direction: column;
 }
+
 .lots__card:first-child {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)) ,
-    url('../images/card-lot-01.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url('../images/card-lot-01.jpg');
     background-size: cover;
     background-position: center;
 }
-.lots__card h3{
+
+.lots__card h3 {
     flex-direction: column;
     text-transform: uppercase;
     font-size: 22px;
@@ -161,10 +171,11 @@ header{
     margin-left: 40px;
     margin-right: 40px;
     margin-top: 48px;
-    color:#FFFFFF;
+    color: #FFFFFF;
     text-decoration: underline;
 }
-.lots__card p{
+
+.lots__card p {
     margin-top: auto;
     font-size: 20px;
     line-height: 120%;
@@ -173,27 +184,31 @@ header{
     margin-right: 40px;
     margin-bottom: 48px;
 }
-.lots__card:nth-child(2){
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(../images/card-lot-02.jpg);
+
+.lots__card:nth-child(2) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url('../images/card-lot-02.jpg');
 }
-.lots__card:last-child{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
-    url('../images/card-lot-03.jpg') ;
+
+.lots__card:last-child {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url('../images/card-lot-03.jpg');
 }
-.more__lots{
+
+.more__lots {
     display: block;
     margin-top: 30px;
     font-size: 20px;
     margin-left: 64px;
     text-decoration: underline;
 }
-.about{
+
+.about {
     display: grid;
     grid-template-columns: 1.12fr 2fr;
     margin-top: 150px;
     margin-right: 24px;
 }
-.logo.logo--white{
+
+.logo.logo--white {
     width: 240px;
     height: 240px;
     background-color: #000000;
@@ -204,7 +219,8 @@ header{
     justify-self: center; 
     align-self: start; 
 }
-.logo.logo--white a{
+
+.logo.logo--white a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -212,49 +228,56 @@ header{
     height: 100%;
 }
 
-.logo.logo--white img{
+.logo.logo--white img {
     width: 60%; 
     height: auto;
     display: block;
     background-color: transparent; 
 }
-.about__title{
+
+.about__title {
     font-size: 40px;
     text-transform: uppercase;
     margin-bottom: 100px;
     margin-top: 5px;
     padding-top: 95px;
 }
-.about__description{
+
+.about__description {
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0;
 }
-.about__description p:first-child{
+
+.about__description p:first-child {
     margin-bottom: 24px;
 }
-footer{
+
+footer {
     display: grid;
     grid-template-columns: 0.9fr auto 1fr;
     margin-top: 181px;
     margin-left: 50px;
     font-size: 18px;
 }
-.social__item{
-    width:48px;
+
+.social__item {
+    width: 48px;
     height: 48px;
 }
-.addres:first-child{
+
+.address:first-child {
     margin: 0;
     justify-self: start;
-    
 }
-.footer__menu{
+
+.footer__menu {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.social__items{
+
+.social__items {
     display: flex;
     flex-direction: row;
     gap: 48px;
@@ -262,9 +285,11 @@ footer{
     justify-content: end;
     margin-right: 50px;
 }
-.menu__item{
+
+.menu__item {
     text-decoration: none;
 }
-.footer__menu :nth-child(2){
+
+.footer__menu :nth-child(2) {
     text-decoration: underline;
 }
