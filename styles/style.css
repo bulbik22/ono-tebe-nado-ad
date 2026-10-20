@@ -36,6 +36,10 @@ header {
     list-style: circle;
 }
 
+.header__menu li:not(:first-child) a {
+    text-decoration: underline;
+}
+
 .header__menu li:first-child {
     list-style: none;
 }
